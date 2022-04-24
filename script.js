@@ -15,6 +15,20 @@ function updatePlayIcon() {
   return true;
 }
 
+//update progress & timestamp
+function updateProgress() {
+  return true;
+}
+
+//set video time to progress
+function setVideoProgress() {
+  return true;
+}
+
+//stop video
+function stopVideo() {
+  return true;
+}
 
 
 //eventListeners
