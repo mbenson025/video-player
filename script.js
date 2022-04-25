@@ -28,7 +28,7 @@ function updateProgress() {
   progress.value = (video.currentTime / video.duration) * 100;
 
   //get minutes
-  let mins = Math.floor(video.currentTIme / 60);
+  let mins = Math.floor(video.currentTime / 60);
   if(mins < 10) {
     mins = '0' + String(mins);
   }
